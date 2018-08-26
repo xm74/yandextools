@@ -7,7 +7,7 @@ Versions
 --------
 
 **v0.2.3 @ 26/08/2018**
-- (i) add Bludit 3.x compatibility
+- (+) add Bludit 3.x compatibility
 
 **v0.2.2 @ 21/11/2017**
 - (i) code cleanup
