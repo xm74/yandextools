@@ -1,0 +1,12 @@
+{
+	"plugin-data":
+	{
+		"name": "Yandex Araçları",
+		"description": "Bu eklenti, sitenizi Yandex Web Yöneticisi Araçları ve Yandex.Metrika ile takip edilecek JavaScript koduyla doğrulamak için meta etiket oluşturur."
+	},
+
+	"yandex-webmasters-tools": "Yandex.Webmaster",
+	"yametrika-id": "Yandex.Metrika sayaç kimliği",
+	"complete-this-field-with-the-yandex-verification": "Site sahibini doğrulamak için Yandex Site doğrulama kodu.",
+	"complete-this-field-with-the-yametrika-id": "Yandex.Metrika için Javascript izleme kodunu oluşturmak için sayaç kimliği."
+}
