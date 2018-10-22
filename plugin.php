@@ -12,18 +12,18 @@ class pluginYandexTools extends Plugin {
 
 	public function form()
 	{
-		global $Language;
+		global $L;
 
 		$html  = '<div>';
-		$html .= '<label for="yaverification">'.$Language->get('Yandex.Webmaster').'</label>';
+		$html .= '<label for="yaverification">'.$L->get('Yandex.Webmaster').'</label>';
 		$html .= '<input id="yaverification" type="text" name="yandex-verification" value="'.$this->getValue('yandex-verification').'">';
-		$html .= '<span class="tip">'.$Language->get('complete-this-field-with-the-yandex-verification').'</span>';
+		$html .= '<span class="tip">'.$L->get('complete-this-field-with-the-yandex-verification').'</span>';
 		$html .= '</div>';
 
 		$html .= '<div>';
-		$html .= '<label for="yametrika">'.$Language->get('Yandex.Metrika Counter ID').'</label>';
+		$html .= '<label for="yametrika">'.$L->get('Yandex.Metrika Counter ID').'</label>';
 		$html .= '<input id="yametrika" type="text" name="yametrika-id" value="'.$this->getValue('yametrika-id').'">';
-		$html .= '<span class="tip">'.$Language->get('complete-this-field-with-the-yametrika-id').'</span>';
+		$html .= '<span class="tip">'.$L->get('complete-this-field-with-the-yametrika-id').'</span>';
 		$html .= '</div>';
 
 		return $html;

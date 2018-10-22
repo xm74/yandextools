@@ -6,6 +6,10 @@ This Bludit CMS plugin generate the meta tag to validate your site with Yandex W
 Versions
 --------
 
+**v0.3.2 @ 22/10/2018**
+- (+) add Bludit 3.2 compatibility
+- (i) back to Bludit-like version enumeration
+
 **v0.2.3 @ 26/08/2018**
 - (+) add Bludit 3.x compatibility
 
